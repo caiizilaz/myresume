@@ -1,0 +1,16 @@
+{
+  "name": "myresume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/caiizilaz/myresume.git",
+    "type": "git"
+  },
+  "author": "caiizilaz <caiizilaz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-open": "^2.0.0"
+  }
+}
