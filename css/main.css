@@ -1,6 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
@@ -11,7 +8,7 @@ audio[controls],canvas,video {display: inline-block; *display: inline; zoom: 1}
 
 /* BASE */
 html {height: 100%; font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%} /* Force scrollbar in non-IE and Remove iOS text size adjust without disabling user zoom */
-body {margin: 0; min-height: 100%; -webkit-font-smoothing:antialiased; font-smoothing:antialiased; text-rendering:optimizeLegibility;color: #666} /* Improve default text rendering, handling of kerning pairs and ligatures */
+body {margin: 0; min-height: 100%; -webkit-font-smoothing:antialiased; font-smoothing:antialiased; text-rendering:optimizeLegibility;color: #666;} /* Improve default text rendering, handling of kerning pairs and ligatures */
 
 /* DEFAULT FONT SETTINGS */
 /* 16px base font size with 150% (24px) friendly, unitless line height and margin for vertical rhythm */
@@ -21,15 +18,16 @@ p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldse
 
 /* TYPOGRAPHY */
 /* Composed to a scale of 12px, 14px, 16px, 18px, 21px, 24px, 36px, 48px, 60px and 72px */
-h1, h2, h3, h4, h5, h6 {font-family:'Open Sans', sans-serif;color:#444;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Oswald', sans-serif;color:#444;}
 h1 {margin: 0; font-size: 3.75em; line-height: 1.2em; margin-bottom: 0.4em} /* 60px / 72px */
 h2 {margin: 0; font-size: 3em; line-height: 1em; margin-bottom: 0.5em} /* 48px / 48px */
 h3 {margin: 0; font-size: 2.25em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 0.6667em} /* 36px / 48px */ 
 h4 {margin: 0; font-size: 1.5em; line-height: 1em; margin-bottom: 1em} /* 24px / 24px */
 h5 {margin: 0; font-size: 1.3125em; line-height: 1.1428571428571428571428571428571em; margin-bottom: 1.1428571428571428571428571428571em} /* 21px / 24px */
 h6 {margin: 0; font-size: 1.125em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 1.3333333333333333333333333333333em} /* 18px / 24px */
-p, ul, blockquote, pre, td, th, label {margin: 0; font-size: 1em; line-height: 1.5em; margin-bottom: 1.5em} /* 16px / 24px */
+p, ul, blockquote, pre, td, th, label {margin: 0; font-size: 1.1em; line-height: 1.5em; margin-bottom: 1.5em;font-family: 'Pathway Gothic One', sans-serif;} /* 16px / 24px */
 small, p.small {margin: 0; font-size: 0.875em; line-height: 1.7142857142857142857142857142857em; margin-bottom: 1.7142857142857142857142857142857em} /* 14px / 24px */
+span {font-family: 'Pathway Gothic One', sans-serif; font-size: 1.1em;}
 
 /* CODE */
 pre {white-space: pre; white-space: pre-wrap; word-wrap: break-word} /* Allow line wrapping of 'pre' */
@@ -68,6 +66,7 @@ dt {font-family:Futura, "Century Gothic", AppleGothic, sans-serif}
 
 /* HYPERLINKS */
 a { 
+  font-size: 1.2em;
   text-decoration: none;
   color: #E74C3C;
   -webkit-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
@@ -215,7 +214,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .tab a {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 20px;
   display: block;
   padding: 2px 10px;
   outline: none;
@@ -251,7 +250,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 /* Photo */
 .photo{
   float: left;
-  height: 300px;
   max-width: 300px;
   margin-right: 20px;
   overflow: hidden;
@@ -264,7 +262,9 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
  height: 100%;
 }
 .info{
-
+.img{
+  display:block;max-width:100%;height:auto
+}
 }
 .info h2, #header h2{
   text-transform: uppercase;
@@ -289,7 +289,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 .main-links ul li a{
 
-  font-size: 14px;
+  font-size: 18px;
 
 } 
 /* Contact-info */
@@ -444,7 +444,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .label {
   display: inline;
   padding: .25em .6em;
-  font-size: 75%;
+  font-size: 90%;
   font-weight: 500;
   line-height: 1;
   color: #ffffff;
