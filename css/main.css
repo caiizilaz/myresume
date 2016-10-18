@@ -643,7 +643,7 @@ Change widths as necessary
 
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 479px) {
+@media only screen and (min-width: 100px) and (max-width: 479px) {
   body {
 
   }
